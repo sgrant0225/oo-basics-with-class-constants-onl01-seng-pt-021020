@@ -12,7 +12,7 @@ GENRES = [ ]
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
-
+# create the writer for genre and add the logic for the class constant/add it to the GENRE array
 def genre=(genre)
   @genre = genre 
   GENRES << genre
